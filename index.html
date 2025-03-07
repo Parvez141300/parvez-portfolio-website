@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <!-- google font poppins cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/cec91f54e2.js" crossorigin="anonymous"></script>
+    <!-- daisy ui and tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- styles css  -->
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .rotate-animation {
+            animation: rotate-img 20s linear infinite;
+        }
+
+        @keyframes rotate-img {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body class="box-border">
+    <header class="shadow-[0px_5px_20px_0px_black] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[150px] mx-auto">
+        <!-- navbar start  -->
+        <section class="navbar w-11/12 md:w-10/12 mx-auto">
+            <div class="navbar-start">
+                <a class=""><img class="w-16" src="assets/PHA Logo Design.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li>
+                        <details>
+                            <summary>Resume</summary>
+                            <ul class="p-2">
+                                <li><a>Download CV</a></li>
+                                <li><a>Education</a></li>
+                                <li><a>Experience</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a>Features</a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class=""><img class="w-8" src="assets/Menu Icon.png" alt=""></a>
+            </div>
+        </section>
+        <!-- navbar end  -->
+
+        <!-- banner start  -->
+        <section class="relative z-30 w-11/12 md:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 items-center py-8">
+            <div class="space-y-6">
+                <h1 class="font-bold text-2xl lg:text-5xl text-nowrap">Hi, I’m <br>
+                    Parvez <span class="text-red-600">Hossain</span> Alif <br>
+                    <span class="text-red-600">a</span> Professional Developer |
+                </h1>
+                <p class="md:text-xl lg:text-2xl">I use animation as a third dimension by which to simplify
+                    experiences and kuiding thro each and every interaction.
+                    I’m not adding motion just to spruce things up, but doing
+                    it in ways that.</p>
+                <a class="" href="assets/cv/parvez cv.pdf"><button class="btn bg-red-600 text-white rounded-2xl hover:bg-red-500 md:text-lg px-5 py-7 mb-4">Download
+                    CV <i class="fa-classic fa-solid fa-download fa-fw"></i></button></a>
+
+                <div class="space-y-2 hidden md:block">
+                    <h4 class="font-bold">Find Me</h4>
+                    <!-- social media icons start -->
+                    <div class="flex gap-5">
+                        <div
+                            class="flex justify-center items-center w-10 h-10 shadow-[1px_1px_5px_black] rounded-lg bg-gradient-to-br from-[#999999] to-white">
+                            <i class="fa-brands fa-facebook text-3xl text-blue-600"></i>
+                        </div>
+                        <div
+                            class="flex justify-center items-center w-10 h-10 shadow-[1px_1px_5px_black] rounded-lg bg-gradient-to-br from-[#999999] to-white">
+                            <i class="fa-brands fa-instagram text-3xl text-blue-600"></i>
+                        </div>
+                        <div
+                            class="flex justify-center items-center w-10 h-10 shadow-[1px_1px_5px_black] rounded-lg bg-gradient-to-br from-[#999999] to-white">
+                            <i class="fa-brands fa-whatsapp text-3xl text-green-600"></i>
+                        </div>
+                        <div
+                            class="flex justify-center items-center w-10 h-10 shadow-[1px_1px_5px_black] rounded-lg bg-gradient-to-br from-[#999999] to-white">
+                            <i class="fa-brands fa-linkedin-in text-3xl text-blue-600"></i>
+                        </div>
+                    </div>
+                    <!-- social media icons end -->
+                </div>
+            </div>
+            <div class="">
+                <div>
+                    <img class="relative z-20 flex justify-center md:justify-end"
+                        src="assets/banner coat formal dress.png" alt="">
+                </div>
+                <div class="">
+                    <img class="rotate-animation -mt-[400px] mb-20 md:-mt-96 lg:-mt-[600px] z-10"
+                        src="assets/banner html, css, js, mongodb, express, react, node logo design.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- banner end  -->
+    </header>
+
+    <main class="mx-auto">
+        <!-- my resume start  -->
+        <section class="w-11/12 md:w-10/12 mx-auto my-16">
+            <!-- resume buttons start  -->
+            <div class="space-y-7">
+                <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold text-center">My Resume</h1>
+                <div class="flex justify-center gap-4 md:gap-5 flex-wrap">
+                    <button
+                        class="btn md:text-xl text-white bg-red-600 rounded-xl hover:bg-red-500 md:px-6 md:py-7 duration-500">All</button>
+                    <button
+                        class="btn md:text-xl text-white bg-red-600 rounded-xl hover:bg-red-500 md:px-6 md:py-7 duration-500">Education</button>
+                    <button
+                        class="btn md:text-xl text-white bg-red-600 rounded-xl hover:bg-red-500 md:px-6 md:py-7 duration-500">Features
+                        Skills</button>
+                    <button
+                        class="btn md:text-xl text-white bg-red-600 rounded-xl hover:bg-red-500 md:px-6 md:py-7 duration-500">Experience</button>
+                </div>
+            </div>
+            <!-- resume buttons end  -->
+            <div class="space-y-5">
+                <!-- education start  -->
+                <div>
+                    <h2 class="text-xl md:2xl lg:text-3xl font-bold mb-5">Education</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
+                        <div
+                            class="bg-[linear-gradient(150deg,_#999999_0%,_#ffffff_75%)] p-10 rounded-3xl border-r-2 border-b-2 border-red-600 space-y-2">
+                            <h3 class="text-2xl font-bold">Computer Science & Technology</h3>
+                            <h5 class="text-sm mb-5">Munshiganj Polytechnic Institute (2018 - 2023)</h5>
+                            <p class="text-justify">Considering the importance of practical classes, industry workshops,
+                                industrial attachments, and project activities, enhancing students' skills to gain
+                                acceptance in both local and international labor markets, and in certain cases,
+                                encouraging
+                                graduates to become entrepreneurs and pursue higher education.</p>
+                        </div>
+                        <div
+                            class="bg-[linear-gradient(-65deg,_#999999_0%,_#ffffff_75%)] p-10 rounded-3xl border-r-2 border-b-2 border-red-600 space-y-2">
+                            <h3 class="text-2xl font-bold">Computer Science & Technology</h3>
+                            <h5 class="text-sm mb-5">Northern University (2025 - 2028)</h5>
+                            <p class="text-justify">Considering the importance of practical classes, industry workshops,
+                                industrial attachments, and project activities, enhancing students' skills to gain
+                                acceptance in both local and international labor markets, and in certain cases,
+                                encouraging
+                                graduates to become entrepreneurs and pursue higher education.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- education end  -->
+
+                <!-- Features start  -->
+                <div>
+                    <h2 class="text-xl md:2xl lg:text-3xl font-bold mb-5">Features Skills</h2>
+                    <!-- development skill start  -->
+                    <h4 class="md:text-xl font-semibold mb-3">Development Skills</h4>
+                    <div class="flex flex-col md:flex-row justify-between items-center md:gap-7 mb-8">
+                        <!-- left skill bar start  -->
+                        <div class="space-y-2 w-full">
+                            <!-- html skill bar  -->
+                            <div>
+                                <div class="flex justify-between">
+                                    <p>HTML</p>
+                                    <p>100%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- html skill bar  -->
+
+                            <!-- CSS skill bar  -->
+                            <div>
+                                <div class="flex justify-between">
+                                    <p>CSS</p>
+                                    <p>100%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CSS skill bar  -->
+
+                            <!-- Tailwind skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-11/12">
+                                    <p>Tailwind</p>
+                                    <p>95%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-11/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tailwind skill bar  -->
+
+                            <!-- JavaScript skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-8/12">
+                                    <p>JavaScript</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-8/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- JavaScript skill bar  -->
+
+                            <!-- Firebase skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-8/12">
+                                    <p>Firebase</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-8/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Firebase skill bar  -->
+
+                            <!-- Github skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-6/12">
+                                    <p>Github</p>
+                                    <p>50%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-6/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Github skill bar  -->
+
+                        </div>
+                        <!-- left skill bar end  -->
+
+                        <!-- middle divider start  -->
+                        <div class="hidden md:block w-2 h-72 rounded-full bg-red-600"></div>
+                        <!-- middle divider end  -->
+
+                        <!-- right skill bar start  -->
+                        <div class="space-y-2 w-full">
+                            <!-- MongoDB skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-8/12">
+                                    <p>MongoDB</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-8/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- MongoDB skill bar  -->
+
+                            <!-- Express JS skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-8/12">
+                                    <p>Express JS</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-8/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Express JS skill bar  -->
+
+                            <!-- React JS skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-8/12">
+                                    <p>React JS</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-8/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- React JS skill bar  -->
+
+                            <!-- Node JS skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-8/12">
+                                    <p>Node JS</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-8/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Node JS skill bar  -->
+
+                            <!-- Next JS skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-8/12">
+                                    <p>Next JS</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-8/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Next JS skill bar  -->
+                        </div>
+                        <!-- right skill bar end  -->
+                    </div>
+                    <!-- development skill end  -->
+
+                    <!-- Design Skills start  -->
+                    <h4 class="md:text-xl font-semibold mb-3">Design Skills</h4>
+                    <div class="flex flex-col md:flex-row justify-between items-center md:gap-7">
+                        <!-- left skill bar start  -->
+                        <div class="space-y-2 w-full">
+                            <!-- Photoshop skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-7/12">
+                                    <p>Photoshop</p>
+                                    <p>70%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-7/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Photoshop skill bar  -->
+
+                            <!-- Illustrator skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-8/12">
+                                    <p>Illustrator</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-8/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Illustrator skill bar  -->
+                        </div>
+                        <!-- left skill bar end  -->
+
+                        <!-- middle divider start  -->
+                        <div class="hidden md:block w-2 h-20 rounded-full bg-red-600"></div>
+                        <!-- middle divider end  -->
+
+                        <!-- right skill bar start  -->
+                        <div class="space-y-2 w-full">
+                            <!-- Premiere Pro skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-6/12">
+                                    <p>Premiere Pro</p>
+                                    <p>50%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-6/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Premiere Pro skill bar  -->
+
+                            <!-- Figma skill bar  -->
+                            <div>
+                                <div class="flex justify-between w-6/12">
+                                    <p>Figma</p>
+                                    <p>50%</p>
+                                </div>
+                                <div class="bg-white border-2 rounded-full">
+                                    <div
+                                        class="bg-gradient-to-r from-white to-[#999999] h-4 md:h-5  rounded-full w-6/12 m-1">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Figma skill bar  -->
+                        </div>
+                        <!-- right skill bar end  -->
+                    </div>
+                    <!-- Design Skills end  -->
+                </div>
+                <!-- Features end  -->
+
+                <!-- Experience start  -->
+                <div>
+                    <h2 class="text-xl md:2xl lg:text-3xl font-bold mb-5">Features Skills</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <div class="bg-[linear-gradient(150deg,_#ffffff_0%,_#999999_100%)] px-5 py-7 md:px-10 md:py-20 rounded-3xl border border-[#999999]">
+                            <div class="flex items-center gap-5 mb-4">
+                                <h1 class="text-8xl md:text-7xl lg:text-7xl font-bold">06</h1>
+                                <h2 class="text-3xl md:text-2xl lg:text-2xl font-bold">Months Of <br> experience</h2>
+                            </div>
+                            <p>Business consulting consultants provide expert
+                                advice and guida the a businesses to help theme their performance efficiency. Business consulting consultants provide expert
+                                advice and guida the a businesses to help theme their performance efficiency</p>
+                        </div>
+                        <div class="grid grid-cols-2 gap-5">
+                            <div class="flex flex-col justify-center items-center text-center border-r-2 border-b-2 rounded-xl p-10 space-y-3">
+                                <h1 class="text-4xl font-bold">20k+</h1>
+                                <p>Our Project Complete</p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center text-center border-r-2 border-b-2 rounded-xl p-10 space-y-3">
+                                <h1 class="text-4xl font-bold">10k+</h1>
+                                <p>Our Natural Products</p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center text-center border-r-2 border-b-2 rounded-xl p-10 space-y-3">
+                                <h1 class="text-4xl font-bold">200+</h1>
+                                <p>Clients Reviews</p>
+                            </div>
+                            <div class="flex flex-col justify-center items-center text-center border-r-2 border-b-2 rounded-xl p-10 space-y-3">
+                                <h1 class="text-4xl font-bold">1,000+</h1>
+                                <p>our Satisfied Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experience end  -->
+            </div>
+        </section>
+        <!-- my resume end  -->
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
